@@ -109,4 +109,5 @@ if __name__ == '__main__':
     plt.ylim([0, 1])
     plt.grid(True)
     plt.savefig("rocCurve_knn_vs_grad")
+    plt.show()
 
